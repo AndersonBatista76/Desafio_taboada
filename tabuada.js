@@ -1,4 +1,4 @@
-function taboada() {
+function tabuada() {
     var num = window.document.getElementById('num')
     var end = document.getElementById('end')
     if(num.value.length == 0 || end.value.length == 0){
