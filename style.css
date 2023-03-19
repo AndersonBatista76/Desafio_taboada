@@ -5,12 +5,12 @@ body {
 }
 
 header {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 33%;
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
     color: rgb(239, 235, 228);
 }
-
 
 section {
     background-color: rgb(239, 235, 228);
@@ -37,4 +37,15 @@ section {
     border-style: none;
     height: 25px;
     width: 200px;
+}
+
+@media screen and (min-width: 736px) and (max-width: 1023px) and (max-width: 414px) {
+    .form {
+        width: auto;
+    }
+
+    section {
+    width: auto;
+    }
+ 
 }
